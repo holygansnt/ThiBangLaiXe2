@@ -9,7 +9,7 @@
         android:layout_width="@dimen/_50sdp"
         android:layout_height="@dimen/_60sdp"
         android:text="Đề 1"
-        android:background="@drawable/button_dethi"
+        android:background="@drawable/btn_green"
         android:textAllCaps="false"
         android:textColor="#fff"
         />

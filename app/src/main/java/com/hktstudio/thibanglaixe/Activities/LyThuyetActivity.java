@@ -64,13 +64,13 @@ public class LyThuyetActivity extends AppCompatActivity implements View.OnClickL
                 rcv_lyTHuyet.setAdapter(adapterRecyclerViewLyThuyet);
             }
         } else {
-            if (dem!=18){
+            if (dem!=15){
                 dem++;
                 adapterRecyclerViewLyThuyet
                         = new AdapterRecyclerViewLyThuyet(LyThuyetActivity.this,cauHoiDAO.getListCauHoi(dem));
                 rcv_lyTHuyet.setAdapter(adapterRecyclerViewLyThuyet);
             }
         }
-        toolbar_title.setText(dem+"/18");
+        toolbar_title.setText(dem+"/15");
     }
 }

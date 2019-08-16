@@ -22,18 +22,13 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="@dimen/_17sdp"
-            android:text="Chọn hạng bài thi"
+            android:text="Bạn có muốn làm bài thi"
             android:textColor="#000"
             android:textSize="@dimen/_14ssp"
             android:textStyle="bold"
             />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Bạn muốn làm bài thi hạng:"
-            android:textColor="#000" />
+
 
         <View
             android:layout_width="match_parent"
@@ -47,7 +42,9 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:gravity="center"
-            android:text="A1, A2"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Đồng ý"
             android:textColor="#275ee9" />
 
         <View
@@ -55,14 +52,6 @@
             android:layout_height="@dimen/_1ssp"
             android:background="#ccc1c1" />
 
-        <Button
-            android:id="@+id/bt_b121"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:text="B1, B2"
-            android:textColor="#275ee9" />
 
         <View
             android:layout_width="match_parent"
@@ -75,7 +64,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:gravity="center"
-            android:text="Cancel"
+            android:text="Hủy bỏ"
             android:textAllCaps="false"
             android:textColor="#275ee9"
             android:textStyle="bold"

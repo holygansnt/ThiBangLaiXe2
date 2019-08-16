@@ -13,10 +13,11 @@
         app:theme="@style/ToolbarColoredBackArrow"
         android:popupTheme="@style/AppTheme"
         >
+        <!--app:theme="@style/ToolbarColoredBackArrow"-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1/18"
+            android:text="1/15"
             android:layout_gravity="right"
             android:id="@+id/toolbar_title"
             android:textSize="@dimen/_17ssp"

@@ -12,8 +12,7 @@ import java.util.List;
  * Created by Hiep on 11/17/2017.
  */
 
-public class
-MeoGhiNhoDAO {
+public class MeoGhiNhoDAO {
     MeoGhiNhoDatabase meoGhiNhoDatabase;
     SQLiteDatabase database;
     public MeoGhiNhoDAO(Context context){

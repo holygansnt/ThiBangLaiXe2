@@ -61,6 +61,7 @@ public class ThiSatHachActivity extends AppCompatActivity implements View.OnClic
     Thread t;
     int FLAG=0;
     private InterstitialAd mInterstitialAd;
+    TextView tv_end;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(null);
@@ -81,6 +82,15 @@ public class ThiSatHachActivity extends AppCompatActivity implements View.OnClic
         t = new Thread(this);
         FLAG = 1;
         t.start();
+
+        tv_end = findViewById(R.id.tv_end);
+        tv_end.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ok = true;
+                dialogFinish.show();
+            }
+        });
     }
 
     public List<DeThi> docFile(String fileName){

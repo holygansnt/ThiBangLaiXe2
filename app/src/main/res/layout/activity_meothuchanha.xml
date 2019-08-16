@@ -28,7 +28,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SƠ ĐỒ THI SÁT HẠCH LÁI XE A1, A2"
+                    android:text="SƠ ĐỒ THI SÁT HẠCH LÁI XE A1"
                     android:textSize="@dimen/_17ssp"
                     android:gravity="center"
                     android:textStyle="bold"
@@ -46,7 +46,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="NỘI DUNG 4 BÀI SA HÌNH SÁT HẠCH LÁI XE A1, A2"
+                    android:text="NỘI DUNG 4 BÀI SA HÌNH SÁT HẠCH LÁI XE A1"
                     android:textSize="@dimen/_17ssp"
                     android:textStyle="bold"
                     android:textColor="#000"

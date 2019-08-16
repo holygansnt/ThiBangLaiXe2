@@ -37,7 +37,7 @@
         android:layout_marginTop="@dimen/_16sdp"
         android:text="Xem lại đáp án"
         android:textAllCaps="false"
-        android:background="@drawable/button_dethi"
+        android:background="@drawable/btn_green"
         android:textColor="#fff"
         />
     <Button
@@ -47,7 +47,7 @@
         android:layout_marginTop="@dimen/_12sdp"
         android:text="Làm bộ đề thi khác"
         android:textAllCaps="false"
-        android:background="@drawable/button_dethi"
+        android:background="@drawable/btn_green"
         android:textColor="#fff"
         />
 </LinearLayout>

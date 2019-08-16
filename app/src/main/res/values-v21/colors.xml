@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#45ba92</color>
-    <color name="colorPrimaryDark">#2b9471</color>
+    <color name="colorPrimary">#01c95f</color>
+    <color name="colorPrimaryDark">#24a546</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="default_header_color">#445566</color>
+    <color name="default_header_color">#24a546</color>
+    <color name="colorTheme">#01c95f</color>
 </resources>

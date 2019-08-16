@@ -1,5 +1,29 @@
 <resources>
-    <string name="app_name">Thi thử bằng lái xe 100% đỗ</string>
+    <string name="app_name">Luyện thi bằng lái xe hạng A1</string>
     <string name="banner_ad_unit_id">ca-app-pub-3937075478302513/9214705730</string>
     <string name="interstitial_id">ca-app-pub-3937075478302513/7540986828</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="home">Học bằng lái xe</string>
+    <string name="info">Hướng dẫn sử dụng</string>
+    <string name="mail">Thông tin ứng dụng</string>
+    <string name="textAbout">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="tv1" >Đây là ứng dụng giúp bạn học lý thuyết để chuẩn bị cho kỳ thi sát hạch lý thuyết lái xe A1, A2 chỉ trong 3 ngày. Vui lòng thực hiện các bước dưới đây để đạt được kết quả thi tốt nhất và rút ngắn nhất thời gian ôn luyện !</string>
+    <string name="tv2" >1. Ngày dầu tiên bạn nên dành 8 tiếng để học hết tất cả các loại biển báo hay gặp. Tập trung vào các loại biển báo cấm, biển báo hiệu lệnh, biển báo chỉ dẫn, biển báo nguy hiểm...</string>
+    <string name="tv3" >2. Ngày thứ 2 bạn hãy vào phần học lý thuyết, học đi học lại các câu lý thuyết này và các mẹo làm từng câu, nhớ các định nghĩa cơ bản như nồng độ cồn, tốc độ cho phép.. và học mẹo làm bài các câu hỏi sa hình...</string>
+    <string name="tv4" >3. Ngày thứ 3 bạn hãy vào làm tất hết tất cả các bộ đề thi được xáo trộn ngẫu nhiên. Hãy làm thật nhiều đề thi xáo trộn và khi nào bạn đều đạt đỗ 100% các đề thi xáo trộn bất kỳ thì hãy dừng lại.</string>
+    <string name="tv5" >4. Nếu bạn đã hoàn thành 3 bước trên, thì bạn chỉ cần giữ tự tin và bình tĩnh khi thi, chắc chắn bạn sẽ đạt kết quả cao. Chúc bạn thi đỗ với điểm số tối đa.</string>
+
 </resources>

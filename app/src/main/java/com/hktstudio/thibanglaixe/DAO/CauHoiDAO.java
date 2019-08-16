@@ -28,7 +28,7 @@ public class CauHoiDAO {
     public List<CauHoi> getListCauHoi(int i){
         List<CauHoi> listCauHoi = new ArrayList<>();
         open();
-        String cauTruyVan = "select * from CAUHOI where id between "+((i-1)*25+1)+" and "+(i*25)+"";
+        String cauTruyVan = "select * from CAUHOI where id between "+((i-1)*10+1)+" and "+(i*10)+"";
         Cursor cursor = database.rawQuery(cauTruyVan,null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){
