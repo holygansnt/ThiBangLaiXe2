@@ -7,9 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-/**
- * Created by HOANG on 3/13/2018.
- */
+
 
 public class MyItemDecoration extends RecyclerView.ItemDecoration {
 

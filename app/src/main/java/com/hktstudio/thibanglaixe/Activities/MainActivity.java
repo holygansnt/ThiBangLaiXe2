@@ -66,22 +66,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void setControl() {
-/*
-        //Load ads
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-        //Nếu quảng cáo đã tắt tiến hành load quảng cáo
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_id));
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                loadInterstitialAd();
-            }
-        });
-        //Load sẵn quảng cáo khi ứng dụng mở
-        loadInterstitialAd();*/
 
         bt_thiSatHach = findViewById(R.id.bt_thiSatHach);
         bt_bienBao = findViewById(R.id.bt_bienBao);
@@ -97,46 +81,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_lichSuBaiThi.setOnClickListener(this);
     }
 
-   /* //Load InterstitialAd
-    private void loadInterstitialAd() {
-        if (mInterstitialAd != null) {
-            AdRequest adRequest = new AdRequest.Builder()
-                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                    .build();
-
-            mInterstitialAd.loadAd(adRequest);
-        }
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (mAdView != null) {
-            mAdView.resume();
-        }
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
-    }
-    @Override
-    protected void onPause() {
-        super.onPause();
-        if (mAdView != null) {
-            mAdView.pause();
-        }
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (mAdView != null) {
-            mAdView.destroy();
-        }
-    }*/
 
     public void setDialogThiSatHach() {
         dialogThiSatHach = new Dialog(this);
@@ -149,20 +93,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_a121.setOnClickListener(this);
         bt_cancel1.setOnClickListener(this);
     }
-
-   /* public void setDialogMeoThucHanh(){
-        dialogMeoThucHanh = new Dialog(this);
-        dialogMeoThucHanh.setContentView(R.layout.custom_dialog_meothuchanh);
-        dialogMeoThucHanh.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        dialogMeoThucHanh.setCanceledOnTouchOutside(true);
-        dialogMeoThucHanh.show();
-        bt_a122 = dialogMeoThucHanh.findViewById(R.id.bt_a122);
-
-        bt_cancel2 = dialogMeoThucHanh.findViewById(R.id.bt_cancel2);
-        bt_a122.setOnClickListener(this);
-        bt_b122.setOnClickListener(this);
-        bt_cancel2.setOnClickListener(this);
-    }*/
 
     @Override
     public void onClick(View view) {
@@ -232,45 +162,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 }
                 break;
-            /*case R.id.bt_b121:
-                Intent intentThiSatHachB = new Intent(MainActivity.this,ThiSatHachActivity.class);
-                intentThiSatHachB.putExtra("tenBaiThi",'b');
-                startActivity(intentThiSatHachB);
-                dialogThiSatHach.dismiss();
-                dem1++;
-                if (dem1==3 || checkTime){
-                    dem1 = 0;
-                    checkTime = false;
-
-                }
-                break;*/
             case R.id.bt_cancel1:
                 dialogThiSatHach.dismiss();
                 break;
-           /* case R.id.bt_a122:
-                Intent intentThucHanhA = new Intent(this,MeoThucHanhAActivity.class);
-            startActivity(intentThucHanhA);
-            dialogMeoThucHanh.dismiss();
-            dem5++;
-            if (dem5==3 || checkTime){
-                dem5 = 0;
-                checkTime = false;
-
-            }
-            break;*/
-/*
-            case R.id.bt_b122:
-                Intent intentThucHanhB = new Intent(this,MeoThucHanhBActivity.class);
-                startActivity(intentThucHanhB);
-                dialogMeoThucHanh.dismiss();
-                if (dem5==3 || checkTime){
-                    dem5 = 0;
-                    checkTime = false;
-
-                }
-                break;
-*/
-
             default:
                 break;
         }

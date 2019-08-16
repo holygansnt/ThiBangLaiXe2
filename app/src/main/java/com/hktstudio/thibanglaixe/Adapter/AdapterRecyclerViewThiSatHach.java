@@ -12,7 +12,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
 import com.hktstudio.thibanglaixe.R;
 import static com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity.list;
 

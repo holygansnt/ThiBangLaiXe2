@@ -1,4 +1,4 @@
-package com.hktstudio.thibanglaixe.Object;
+package com.hktstudio.thibanglaixe.Model;
 
 /**
  * Created by Hiep on 11/6/2017.

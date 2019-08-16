@@ -16,9 +16,6 @@ import com.hktstudio.thibanglaixe.DAO.CauHoiDAO;
 import com.hktstudio.thibanglaixe.R;
 import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
 
-/**
- * Created by Hiep on 11/12/2017.
- */
 
 public class LyThuyetActivity extends AppCompatActivity implements View.OnClickListener{
     RecyclerView rcv_lyTHuyet;

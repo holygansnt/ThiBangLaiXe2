@@ -11,7 +11,7 @@ import com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader;
 import com.hktstudio.thibanglaixe.Adapter.AdapterRecyclerViewLichSuBaiThi;
 import com.hktstudio.thibanglaixe.Adapter.AdapterRecyclerViewXemDapAn;
 import com.hktstudio.thibanglaixe.DAO.CauHoiDAO;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
 import com.hktstudio.thibanglaixe.R;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +19,6 @@ import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
 import static com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity.SIZE;
 import static com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity.checkDungSai;
 
-/**
- * Created by hoang on 1/13/2018.
- */
 
 public class XemLaiDapAnActivity extends AppCompatActivity {
     RecyclerView rcv_xemDapAn;

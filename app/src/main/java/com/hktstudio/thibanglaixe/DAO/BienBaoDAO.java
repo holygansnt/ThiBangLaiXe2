@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import com.hktstudio.thibanglaixe.Databases.BienBaoDatabase;
-import com.hktstudio.thibanglaixe.Object.BienBao;
+import com.hktstudio.thibanglaixe.Model.BienBao;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -69,19 +69,19 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@drawable/thisathach" />
                     </LinearLayout>
 
                     <Button
+                        android:layout_weight="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:background="@android:color/transparent"
                         android:clickable="false"
                         android:gravity="top|center"
@@ -102,11 +102,11 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@drawable/bienbao" />
                     </LinearLayout>
@@ -145,11 +145,11 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@mipmap/lythuyet" />
                     </LinearLayout>
@@ -178,11 +178,11 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@drawable/meoghinho" />
                     </LinearLayout>
@@ -221,11 +221,11 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@drawable/meothuchanh" />
                     </LinearLayout>
@@ -254,11 +254,11 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                       >
 
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="68dp"
+                            android:layout_height="68dp"
                             android:clickable="false"
                             android:src="@drawable/lichsubaithi" />
                     </LinearLayout>

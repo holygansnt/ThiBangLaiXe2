@@ -1,6 +1,5 @@
 package com.hktstudio.thibanglaixe.Activities;
 
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
@@ -9,11 +8,10 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.util.TypedValue;
 
 import com.hktstudio.thibanglaixe.Adapter.AdapterRecyclerViewLichSuBaiThi;
 import com.hktstudio.thibanglaixe.MyItemDecoration;
-import com.hktstudio.thibanglaixe.Object.DeThi;
+import com.hktstudio.thibanglaixe.Model.DeThi;
 import com.hktstudio.thibanglaixe.R;
 
 import java.io.File;
@@ -24,9 +22,6 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hoang on 1/24/2018.
- */
 
 public class LichSuBaiThiActivity extends AppCompatActivity {
     RecyclerView rcv_lichSuBaiThi;

@@ -19,8 +19,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.hktstudio.thibanglaixe.Adapter.AdapterRecyclerViewThiSatHach;
 import com.hktstudio.thibanglaixe.DAO.CauHoiDAO;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
-import com.hktstudio.thibanglaixe.Object.DeThi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
+import com.hktstudio.thibanglaixe.Model.DeThi;
 import com.hktstudio.thibanglaixe.R;
 import java.io.File;
 import java.io.FileInputStream;
@@ -130,27 +130,17 @@ public class ThiSatHachActivity extends AppCompatActivity implements View.OnClic
         }
     }
 
-    //Load InterstitialAd
-    private void loadInterstitialAd() {
-        if (mInterstitialAd != null) {
-            AdRequest adRequest = new AdRequest.Builder()
-                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                    .build();
-
-            mInterstitialAd.loadAd(adRequest);
-        }
-    }
 
     @Override
     protected void onStart() {
         super.onStart();
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
+
     }
 
     public void setControl() {
@@ -158,21 +148,12 @@ public class ThiSatHachActivity extends AppCompatActivity implements View.OnClic
         setSupportActionBar(toolbar);
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         //actionBar.setDisplayHomeAsUpEnabled(true);
-        //Nếu quảng cáo đã tắt tiến hành load quảng cáo
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_id));
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                loadInterstitialAd();
-            }
-        });
-        //Load sẵn quảng cáo khi ứng dụng mở
-        loadInterstitialAd();
+
         tv_time = findViewById(R.id.tv_time);
         setTime();
         bt_truoc = findViewById(R.id.bt_truoc);
         bt_sau = findViewById(R.id.bt_sau);
+
         dialogFinish = new Dialog(this);
         dialogFinish.setContentView(R.layout.custom_dialog_finish);
         dialogFinish.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));

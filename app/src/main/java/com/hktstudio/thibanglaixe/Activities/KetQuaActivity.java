@@ -20,9 +20,6 @@ import com.hktstudio.thibanglaixe.R;
 import static com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity.SIZE;
 import static com.hktstudio.thibanglaixe.Activities.ThiSatHachActivity.soCauDung;
 
-/**
- * Created by hoang on 1/11/2018.
- */
 
 public class KetQuaActivity extends AppCompatActivity implements View.OnClickListener{
     TextView tv_diem;
@@ -42,17 +39,7 @@ public class KetQuaActivity extends AppCompatActivity implements View.OnClickLis
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        //Nếu quảng cáo đã tắt tiến hành load quảng cáo
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_id));
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                loadInterstitialAd();
-            }
-        });
-        //Load sẵn quảng cáo khi ứng dụng mở
-        loadInterstitialAd();
+
         tv_diem = findViewById(R.id.tv_diem);
         img_ketQua = findViewById(R.id.img_ketQua);
         btXemDapAn = findViewById(R.id.btXemDapAn);
@@ -85,27 +72,18 @@ public class KetQuaActivity extends AppCompatActivity implements View.OnClickLis
         return drawable;
     }
 
-    //Load InterstitialAd
-    private void loadInterstitialAd() {
-        if (mInterstitialAd != null) {
-            AdRequest adRequest = new AdRequest.Builder()
-                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                    .build();
 
-            mInterstitialAd.loadAd(adRequest);
-        }
-    }
 
     @Override
     protected void onStart() {
         super.onStart();
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
+
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        if (!mInterstitialAd.isLoaded())loadInterstitialAd();
+
     }
 
     @Override

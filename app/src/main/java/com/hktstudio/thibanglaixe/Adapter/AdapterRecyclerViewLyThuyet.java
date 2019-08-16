@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
 import com.hktstudio.thibanglaixe.R;
 import java.util.ArrayList;
 import java.util.List;

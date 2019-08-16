@@ -1,12 +1,10 @@
 package com.hktstudio.thibanglaixe.Adapter;
 
-import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
 import android.view.LayoutInflater;
@@ -21,8 +19,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.hktstudio.thibanglaixe.Activities.MainActivity;
 import com.hktstudio.thibanglaixe.Activities.XemLaiDapAnActivity;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
-import com.hktstudio.thibanglaixe.Object.DeThi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
+import com.hktstudio.thibanglaixe.Model.DeThi;
 import com.hktstudio.thibanglaixe.R;
 import java.util.ArrayList;
 import java.util.List;

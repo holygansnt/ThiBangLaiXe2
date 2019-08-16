@@ -8,7 +8,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/icon_logo_about"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/icon_logo_about"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".Activities.AboutUsActivity"
@@ -18,7 +18,9 @@
         <activity android:name=".Activities.InformationActivity"
             android:label="Hướng dẫn sử dụng"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.SceenSplashActivity">
+        <activity android:name=".Activities.SceenSplashActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,20 +53,9 @@
             android:parentActivityName=".Activities.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.MeoThucHanhBActivity"
-            android:label="Mẹo thực hành"
-            android:launchMode="singleTop"
-            android:parentActivityName=".Activities.MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".Activities.KinhNghiemThiAActivity"
             android:label="Kinh nghiệm thi"
             android:parentActivityName=".Activities.MeoThucHanhAActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activities.KinhNghiemThiBActivity"
-            android:label="Kinh nghiệm thi"
-            android:parentActivityName=".Activities.MeoThucHanhBActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.ThiSatHachActivity"

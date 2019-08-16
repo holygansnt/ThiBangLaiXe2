@@ -13,7 +13,7 @@ public class SceenSplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sceen_splash);
 
-        CountDownTimer downTimer = new CountDownTimer(2000, 2000) {
+        CountDownTimer downTimer = new CountDownTimer(4000, 4000) {
             @Override
             public void onTick(long l) {
             }

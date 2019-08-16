@@ -11,9 +11,6 @@ import com.hktstudio.thibanglaixe.R;
 
 import me.everything.android.ui.overscroll.OverScrollDecoratorHelper;
 
-/**
- * Created by Hiep on 11/27/2017.
- */
 
 public class KinhNghiemThiAActivity extends AppCompatActivity {
     Toolbar toolbar;

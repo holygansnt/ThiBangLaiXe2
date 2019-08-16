@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import com.hktstudio.thibanglaixe.Databases.MeoGhiNhoDatabase;
-import com.hktstudio.thibanglaixe.Object.MeoGhiNho;
+import com.hktstudio.thibanglaixe.Model.MeoGhiNho;
 import java.util.ArrayList;
 import java.util.List;
 

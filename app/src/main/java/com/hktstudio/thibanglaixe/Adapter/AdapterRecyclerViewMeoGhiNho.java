@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.hktstudio.thibanglaixe.Object.MeoGhiNho;
+import com.hktstudio.thibanglaixe.Model.MeoGhiNho;
 import com.hktstudio.thibanglaixe.R;
 import java.util.ArrayList;
 import java.util.List;

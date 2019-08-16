@@ -5,7 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 import com.hktstudio.thibanglaixe.Databases.LyThuyetDatabase;
-import com.hktstudio.thibanglaixe.Object.CauHoi;
+import com.hktstudio.thibanglaixe.Model.CauHoi;
 import java.util.ArrayList;
 import java.util.List;
 

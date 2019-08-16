@@ -1,4 +1,4 @@
-package com.hktstudio.thibanglaixe.Object;
+package com.hktstudio.thibanglaixe.Model;
 
 import java.io.Serializable;
 
